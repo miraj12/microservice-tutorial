@@ -1,0 +1,85 @@
+== Retrieve all mobile suits
+
+Example of curl command:
+
+include::{snippets}/MobileSuitFactoryControllerTest/getAll/curl-request.adoc[]
+
+Example of http request:
+
+include::{snippets}/MobileSuitFactoryControllerTest/getAll/http-request.adoc[]
+
+Example of http response:
+
+include::{snippets}/MobileSuitFactoryControllerTest/getAll/http-response.adoc[]
+
+Response body:
+
+include::{snippets}/MobileSuitFactoryControllerTest/getAll/response-body.adoc[]
+
+Response fields description:
+
+include::{snippets}/MobileSuitFactoryControllerTest/getAll/response-fields.adoc[]
+
+
+== Retrieve one mobile suit by its identifier
+
+Example of http request:
+
+include::{snippets}/MobileSuitFactoryControllerTest/getById/http-request.adoc[]
+
+Path parameters description:
+
+include::{snippets}/MobileSuitFactoryControllerTest/getById/path-parameters.adoc[]
+
+Response body:
+
+include::{snippets}/MobileSuitFactoryControllerTest/getById/response-body.adoc[]
+
+Response fields description:
+
+include::{snippets}/MobileSuitFactoryControllerTest/getById/response-fields.adoc[]
+
+
+== Retrieve a mobile suit by its model name
+
+Example of http request:
+
+include::{snippets}/MobileSuitFactoryControllerTest/searchByModelName/http-request.adoc[]
+
+Request parameters description:
+
+include::{snippets}/MobileSuitFactoryControllerTest/searchByModelName/request-parameters.adoc[]
+
+Response body:
+
+include::{snippets}/MobileSuitFactoryControllerTest/searchByModelName/response-body.adoc[]
+
+
+== Create a new mobile suit
+
+Example of http request:
+
+include::{snippets}/MobileSuitFactoryControllerTest/create/http-request.adoc[]
+
+Request body:
+
+include::{snippets}/MobileSuitFactoryControllerTest/create/request-body.adoc[]
+
+Request fields description:
+
+include::{snippets}/MobileSuitFactoryControllerTest/create/request-fields.adoc[]
+
+
+== Retrieve an authentication token
+
+Example of http request:
+
+include::{snippets}/AuthControllerTest/tokens/http-request.adoc[]
+
+Headers description:
+
+include::{snippets}/AuthControllerTest/tokens/request-headers.adoc[]
+
+Response body:
+
+include::{snippets}/AuthControllerTest/tokens/response-body.adoc[]
